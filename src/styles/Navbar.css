@@ -1,0 +1,8 @@
+.nav-item {
+  margin-right: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.nav-item:last-child {
+  margin-right: 0; /* Remove margin from the last link */
+}
