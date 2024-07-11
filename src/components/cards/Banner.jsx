@@ -1,4 +1,5 @@
-import "../styles/Card.css";
+import "../../styles/Card.css";
+
 export default function Card() {
   return (
     <>
