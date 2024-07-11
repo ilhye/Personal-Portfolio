@@ -1,11 +1,15 @@
 .intro-card {
     background: linear-gradient(274deg, #DFEFFF 27.41%, #B7B6FA 98.62%);
-}
-
-.left-card {
+    margin-top: 140px;
+    height: 280px;
     padding: 40px;
+    border-radius: 45px;
+    border-color: transparent;
 }
 
 .intro-image {
-    width: 304px;
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 400px;
 }
