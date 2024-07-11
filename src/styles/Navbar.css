@@ -1,8 +1,24 @@
+.navbar {
+  background-color: aquamarine;
+}
+
 .nav-item {
   margin-right: 30px;
   font-size: 18px;
   text-align: center;
 }
+
 .nav-item:last-child {
-  margin-right: 0; /* Remove margin from the last link */
+  margin-right: 0;
+}
+
+.username {
+  padding: 5px 20px 5px 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.username p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
 }

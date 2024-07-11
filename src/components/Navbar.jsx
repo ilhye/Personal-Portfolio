@@ -41,6 +41,9 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
+          <div className="navbar-nav username">
+            <p>@ilhye</p>
+          </div>
         </div>
       </div>
     </nav>
