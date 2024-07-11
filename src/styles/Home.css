@@ -2,6 +2,6 @@
     margin-bottom: 26px;
 }
 
-.projects {
-    margin-right: 53px;
+.project-container, .education-container {
+    margin-right: 23px;
 }

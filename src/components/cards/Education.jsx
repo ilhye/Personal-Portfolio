@@ -2,7 +2,7 @@ import "../../styles/Education.css";
 
 export default function Education() {
   return (
-    <div className="card education-card">
+    <div className="card education">
       <div className="card-body">
         <div className="row">
           <div className="col-sm-4">
