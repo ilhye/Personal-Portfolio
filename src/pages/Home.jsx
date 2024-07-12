@@ -32,7 +32,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <Button />
+          <Button variant="primary">View More</Button>
         </div>
         <div className="col-sm-6 education-container">
           <h3 className="header">Education</h3>

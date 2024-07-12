@@ -1,7 +1,12 @@
-.btn {
-    margin-bottom: 26px;
-    width: 357px;
-    height: 32px;
-    border: 1px solid black;
-    padding: 5px 0px 5px 0px;
+.btn__primary {
+  margin-bottom: 26px;
+  width: 357px;
+  border: 2px solid black;
+  padding: 5px 0px 5px 0px;
+  font-weight: 600;
+  background-color: antiquewhite;
+}
+
+.btn__primary:hover {
+  background-color: aquamarine;
 }
