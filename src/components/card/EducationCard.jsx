@@ -5,10 +5,10 @@ export default function Education() {
     <div className="card education">
       <div className="card-body">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img src="https://placehold.jp/95x95.png" alt="school-logo" />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-9">
             <h5 className="card-title">School</h5>
             <p>year</p>
             <p>Description</p>
