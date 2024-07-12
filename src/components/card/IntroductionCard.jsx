@@ -1,4 +1,4 @@
-import "../../styles/Card.css";
+import "../../styles/IntroductionCard.css";
 
 export default function Card() {
   return (

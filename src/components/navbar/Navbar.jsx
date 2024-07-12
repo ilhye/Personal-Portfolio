@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "../styles/Navbar.css"
+import { NavLink } from "react-router-dom";
+import "../../styles/Navbar.css";
 
 export default function Navbar() {
   return (
@@ -21,24 +21,24 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto center-nav">
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/project" className="nav-link">
+              <NavLink to="/project" className="nav-link">
                 Project
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link">
+              <NavLink to="/about" className="nav-link">
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link">
+              <NavLink to="/contact" className="nav-link">
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <div className="navbar-nav username">

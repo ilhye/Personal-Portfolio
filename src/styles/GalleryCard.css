@@ -1,7 +1,8 @@
 .gallery {
-  width: 155px;
-  height: 149px;
+  width: 100%;
+  align-items: center;
   padding: 20px;
   background-color: palegoldenrod;
   margin-bottom: 28px;
 }
+
