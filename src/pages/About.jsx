@@ -1,7 +1,7 @@
 import IntroductionCard from "../components/card/IntroductionCard";
 import Gallery from "../components/card/GalleryCard";
 import EducationCard from "../components/card/EducationCard";
-import "../styles/About.css"
+import "../styles/About.css";
 
 export default function About() {
   return (
@@ -14,14 +14,13 @@ export default function About() {
           <Gallery />
         </div>
         <div className="col-md-10">
-          <h3>Education</h3>
           <div className="row">
-            <EducationCard />
-            <EducationCard />
-          </div>
-
-          <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-5 education-container">
+              <h3>Education</h3>
+              <EducationCard />
+              <EducationCard />
+            </div>
+            <div className="col-md-7">
               <h3>About</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,9 +31,8 @@ export default function About() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-            </div>
-            <div className="col-md-2">
-                <h3>Skills</h3>
+
+              <h3>Skills</h3>
             </div>
           </div>
         </div>
