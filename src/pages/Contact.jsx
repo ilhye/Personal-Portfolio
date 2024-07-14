@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import "../styles/Contact.css";
+import Button from "../components/button/Button";
 
 export default function Contact() {
   return (
@@ -50,6 +51,7 @@ export default function Contact() {
               rows="3"
             ></textarea>
           </div>
+          <Button variant="primary" className="submit">Submit</Button>
         </div>
       </div>
     </>
