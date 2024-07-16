@@ -4,6 +4,7 @@ import Projects from "../components/card/ProjectCard";
 import "../styles/Home.css";
 import Education from "../components/card/EducationCard";
 import Gallery from "../components/card/GalleryCard";
+import Website from "../components/column/Website";
 
 export default function Home() {
   return (
@@ -44,8 +45,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-sm-2 gallery-container">
-          <Gallery />
-          <Gallery />
+          <Website panel="home"/>
         </div>
       </div>
     </>
